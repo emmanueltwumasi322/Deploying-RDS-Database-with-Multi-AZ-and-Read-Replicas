@@ -121,6 +121,8 @@ Configured:
 <ul>
 <li>Storage autoscaling: <b>Enabled</b></li>
 <li>Maximum storage threshold: <b>1000 GiB</b></li>
+<li>Create a standby instance</b></li>
+<b></b></li>
 </ul>
 
 Storage autoscaling allows Amazon RDS to automatically increase database storage as capacity requirements grow.
@@ -137,7 +139,7 @@ If the primary database becomes unavailable, Amazon RDS can automatically fail o
 Selected:
 
 <ul>
-<li>Multi-AZ deployment: <b>Create a standby instance</b></li>
+<li>Multi-AZ deployment: 
 </ul>
 
 
