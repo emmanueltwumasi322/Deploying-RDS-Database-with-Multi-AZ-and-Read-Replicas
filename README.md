@@ -208,11 +208,11 @@ The provisioning process took several minutes to complete. <br/><br/>
 <br/><br/>
 
 <b>Step 10: Understand the Purpose of Read Replicas.</b><br/>
-Reviewed how Amazon RDS read replicas can be used to improve performance for read-intensive workloads. <br/><br/>
-Followed similar process and created a read replica.<br/><br/>
+Reviewed how Amazon RDS read replicas can improve performance for read-intensive workloads, then followed a similar configuration process to create a read replica for the primary database.
+<br/><br/>
 
 <img width="900" alt="Amazon RDS Networking Configuration" src="https://github.com/user-attachments/assets/aae850ca-7413-420f-b76a-e74ef89ef863" />
-
+<br/><br/>
 The insurance company's Data Analytics team frequently runs large analytics queries. Instead of sending every read request to the primary database, these workloads can be directed to a read replica. <br/><br/>
 
 This allows:
