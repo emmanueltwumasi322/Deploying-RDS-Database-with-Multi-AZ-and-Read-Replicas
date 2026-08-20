@@ -4,7 +4,7 @@
 
 This project demonstrates how I configured an Amazon Relational Database Service (Amazon RDS) environment to reduce database administration overhead while improving availability, resilience, and read performance.
 
-The simulated insurance company experienced several database challenges:
+An insurance company experienced several database challenges:
 
 <ul>
   <li>Database administrators spent too much time patching and managing database infrastructure.</li>
