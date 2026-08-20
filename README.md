@@ -47,7 +47,6 @@ To address these requirements, I deployed an Amazon RDS MariaDB database with Mu
 <h2>Environments Used</h2>
 
 * <b>AWS Console</b>
-* <b>AWS SimuLearn Lab Environment</b>
 
 <h2>Project Objectives</h2>
 
