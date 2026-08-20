@@ -152,7 +152,7 @@ Disabling public access helps protect the database by preventing direct connecti
 <br/><br/>
 
 <b>Step 6: Configure Monitoring.</b><br/>
-Reviewed the available Amazon RDS monitoring options. <br/><br/>
+Reviewed the available RDS monitoring options. <br/><br/>
 
 Configured:
 
@@ -161,11 +161,6 @@ Configured:
 <li>Performance Insights: <b>Disabled</b></li>
 <li>Enhanced Monitoring: <b>Disabled</b></li>
 </ul>
-
-Performance Insights and Enhanced Monitoring were disabled because the SimuLearn environment did not provide the additional permissions required for those features. <br/><br/>
-
-<img width="900" alt="Amazon RDS Monitoring Configuration" src="ADD_SCREENSHOT_URL_HERE" />
-
 <br/><br/>
 
 <b>Step 7: Configure the Initial Database.</b><br/>
@@ -180,19 +175,13 @@ Configured:
 The database name is separate from the RDS DB instance identifier. <br/><br/>
 
 The RDS DB instance identifier was:
-
 <ul>
 <li><b>my-database</b></li>
 </ul>
-
 The database name was:
-
 <ul>
 <li><b>my_database</b></li>
 </ul>
-
-<img width="900" alt="Amazon RDS Initial Database Configuration" src="ADD_SCREENSHOT_URL_HERE" />
-
 <br/><br/>
 
 <b>Step 8: Review Backup, Encryption, and Maintenance Settings.</b><br/>
@@ -209,25 +198,22 @@ Configured:
 
 Automated backups allow database recovery using stored backup data and help protect against accidental data loss. <br/><br/>
 
-<img width="900" alt="Amazon RDS Backup and Maintenance Configuration" src="ADD_SCREENSHOT_URL_HERE" />
-
 <br/><br/>
 
 <b>Step 9: Create the Amazon RDS Database.</b><br/>
 Reviewed the database configuration and selected <b>Create database</b>. <br/><br/>
-
 Amazon RDS began provisioning the MariaDB database instance and its associated Multi-AZ standby instance. <br/><br/>
 
 The provisioning process took several minutes to complete. <br/><br/>
-
-<img width="900" alt="Amazon RDS Database Provisioning" src="ADD_SCREENSHOT_URL_HERE" />
-
 <br/><br/>
 
 <b>Step 10: Understand the Purpose of Read Replicas.</b><br/>
 Reviewed how Amazon RDS read replicas can be used to improve performance for read-intensive workloads. <br/><br/>
+Followed similar process and created a read replica.<br/><br/>
 
-The simulated insurance company's Data Analytics team frequently runs large analytics queries. Instead of sending every read request to the primary database, these workloads can be directed to a read replica. <br/><br/>
+<img width="900" alt="Amazon RDS Networking Configuration" src="https://github.com/user-attachments/assets/aae850ca-7413-420f-b76a-e74ef89ef863" />
+
+The insurance company's Data Analytics team frequently runs large analytics queries. Instead of sending every read request to the primary database, these workloads can be directed to a read replica. <br/><br/>
 
 This allows:
 
