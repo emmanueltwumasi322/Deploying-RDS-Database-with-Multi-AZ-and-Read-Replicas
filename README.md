@@ -114,9 +114,8 @@ This configuration provided a managed database environment while reducing the op
 
 <br/><br/>
 
-<b>Step 4: Configure Storage Autoscaling.</b><br/>
-Expanded the additional storage configuration and enabled storage autoscaling. <br/><br/>
-
+<b>Step 4: Configure Storage Autoscaling and Multi AZ Deployment.</b><br/>
+Expanded the additional storage configuration and enabled storage autoscaling. I also enabled a standby database instance using RDS Multi-AZ deployment. <br/><br/>
 Configured:
 
 <ul>
@@ -124,14 +123,16 @@ Configured:
 <li>Maximum storage threshold: <b>1000 GiB</b></li>
 </ul>
 
-Storage autoscaling allows Amazon RDS to automatically increase database storage as capacity requirements grow. <br/><br/>
+Storage autoscaling allows Amazon RDS to automatically increase database storage as capacity requirements grow.
+Multi-AZ provides high availability by maintaining a synchronously replicated standby database in another Availability Zone.
+If the primary database becomes unavailable, Amazon RDS can automatically fail over to the standby database. <br/><br/>
 
-<img width="900" alt="Amazon RDS Storage Autoscaling" src="ADD_SCREENSHOT_URL_HERE" />
+<img width="900" alt="Amazon RDS Storage Autoscaling" src="https://github.com/user-attachments/assets/b180b5a4-bef9-4a19-9285-ecba9cadf89e" />
 
 <br/><br/>
 
 <b>Step 5: Configure Multi-AZ Deployment.</b><br/>
-Enabled a standby database instance using Amazon RDS Multi-AZ deployment. <br/><br/>
+
 
 Selected:
 
@@ -139,9 +140,7 @@ Selected:
 <li>Multi-AZ deployment: <b>Create a standby instance</b></li>
 </ul>
 
-Multi-AZ provides high availability by maintaining a synchronously replicated standby database in another Availability Zone. <br/><br/>
 
-If the primary database becomes unavailable, Amazon RDS can automatically fail over to the standby database. <br/><br/>
 
 <img width="900" alt="Amazon RDS Multi-AZ Configuration" src="ADD_SCREENSHOT_URL_HERE" />
 
