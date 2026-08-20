@@ -1,4 +1,4 @@
-<h1>Configuring Amazon RDS for High Availability and Read Scalability</h1>
+<h1>Configuring RDS for High Availability and Read Scalability</h1>
 
 <h2>Description</h2>
 
