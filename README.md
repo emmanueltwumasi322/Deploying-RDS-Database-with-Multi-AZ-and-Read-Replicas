@@ -75,15 +75,10 @@ To address these requirements, I deployed an Amazon RDS MariaDB database with Mu
 <p align="center">
 
 <b>Step 1: Review Database Options in Amazon EC2.</b><br/>
-Opened the Amazon EC2 service and navigated to the AMI Catalog. Searched for <b>SQL</b> to review database-related Amazon Machine Images available through AWS, the AWS Marketplace, and the AWS community. <br/><br/>
+Opened EC2 service and navigated to the AMI Catalog. Searched for <b>SQL</b> to review database-related Amazon Machine Images available through AWS, the AWS Marketplace, and the AWS community. <br/><br/>
 
 This demonstrated that databases can be self-hosted on EC2 instances, but this approach requires administrators to manage the operating system, patching, database software, and infrastructure. <br/><br/>
-
-<img width="900" alt="EC2 AMI Catalog SQL Search" src="ADD_SCREENSHOT_URL_HERE" />
-
-<br/><br/>
-
-<b>Step 2: Open Amazon RDS and Create a Database.</b><br/>
+<b>Step 2: Open RDS and Create a Database.</b><br/>
 Navigated to Amazon RDS and selected <b>Create database</b>. <br/><br/>
 
 Configured the database using:
@@ -99,7 +94,7 @@ Configured the database using:
 
 The database password is intentionally excluded from this repository. <br/><br/>
 
-<img width="900" alt="Amazon RDS Database Creation" src="ADD_SCREENSHOT_URL_HERE" />
+<img width="900" alt="Amazon RDS Database Creation" src="https://github.com/user-attachments/assets/c63dbbc7-82bd-4867-911f-2a05eeb37d8a" />
 
 <br/><br/>
 
