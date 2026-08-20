@@ -147,7 +147,7 @@ Configured:
 
 Disabling public access helps protect the database by preventing direct connections from the public internet. <br/><br/>
 
-<img width="900" alt="Amazon RDS Networking Configuration" src="ADD_SCREENSHOT_URL_HERE" />
+<img width="900" alt="Amazon RDS Networking Configuration" src="https://github.com/user-attachments/assets/6aefa687-0991-4c3c-a4f5-fc9687d3f001" />
 
 <br/><br/>
 
