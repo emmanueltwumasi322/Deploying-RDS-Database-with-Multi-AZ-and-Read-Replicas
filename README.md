@@ -30,6 +30,16 @@ To address these requirements, I deployed an Amazon RDS MariaDB database with Mu
 <p align="center">
 <img width="1000" height="550" alt="Amazon RDS Multi-AZ Architecture" src="https://github.com/user-attachments/assets/45c863f8-1598-4157-a5a2-ae3cfe481705" />
 
+<h2>Architecture Design</h2>
+
+<ul>
+<li>The primary Amazon RDS DB instance handles the main database workload and write operations.</li>
+<li>A read replica can be used to handle analytics queries and other read-intensive workloads.</li>
+<li>A standby RDS instance is deployed in another Availability Zone using Multi-AZ.</li>
+<li>The standby database receives synchronous replication from the primary database.</li>
+<li>If the primary database becomes unavailable, Amazon RDS can automatically fail over to the standby instance.</li>
+<li>Public access is disabled to prevent direct database exposure to the internet.</li>
+</ul>
 </p>
 
 <h2>Technologies Used</h2>
@@ -58,17 +68,6 @@ To address these requirements, I deployed an Amazon RDS MariaDB database with Mu
 <li>Understand how read replicas improve read-heavy workload performance.</li>
 <li>Review automated database backup options.</li>
 <li>Explore AWS Database Migration Service for database migration and replication.</li>
-</ul>
-
-<h2>Database Design</h2>
-
-<ul>
-<li>The primary Amazon RDS DB instance handles the main database workload and write operations.</li>
-<li>A read replica can be used to handle analytics queries and other read-intensive workloads.</li>
-<li>A standby RDS instance is deployed in another Availability Zone using Multi-AZ.</li>
-<li>The standby database receives synchronous replication from the primary database.</li>
-<li>If the primary database becomes unavailable, Amazon RDS can automatically fail over to the standby instance.</li>
-<li>Public access is disabled to prevent direct database exposure to the internet.</li>
 </ul>
 
 <h2>Walk-through</h2>
