@@ -229,23 +229,6 @@ It is important to distinguish between Multi-AZ and read replicas:
 <li><b>Multi-AZ</b> is primarily used for high availability and failover.</li>
 <li><b>Read Replicas</b> are primarily used for read scalability and performance.</li>
 </ul>
-
-<br/><br/>
-
-<b>Step 11: Explore AWS Database Migration Service.</b><br/>
-Opened AWS Database Migration Service and navigated to <b>Getting started</b>. <br/><br/>
-
-Reviewed the available workflows:
-
-<ul>
-<li><b>Discover and assess</b></li>
-<li><b>Migrate or replicate</b></li>
-</ul>
-
-AWS DMS can help organizations migrate existing databases into AWS while allowing source databases to remain operational during the migration process. <br/><br/>
-
-<img width="900" alt="AWS Database Migration Service" src="ADD_SCREENSHOT_URL_HERE" />
-
 <br/><br/>
 
 <h2>High Availability Improvements</h2>
@@ -268,7 +251,7 @@ AWS DMS can help organizations migrate existing databases into AWS while allowin
 
 <h2>Lessons Learned</h2>
 
-During this lab, I gained hands-on experience configuring and deploying a managed relational database using Amazon RDS. I learned how Amazon RDS reduces the operational workload associated with patching and infrastructure management, how Multi-AZ deployments provide high availability through synchronous replication and automatic failover, and how read replicas can improve performance for read-intensive workloads.
+During this project, I gained hands-on experience configuring and deploying a managed relational database using Amazon RDS. I learned how Amazon RDS reduces the operational workload associated with patching and infrastructure management, how Multi-AZ deployments provide high availability through synchronous replication and automatic failover, and how read replicas can improve performance for read-intensive workloads.
 
 I also learned that Multi-AZ and read replicas serve different purposes. Multi-AZ is primarily designed for high availability and disaster recovery, while read replicas are designed to improve read scalability. Additionally, I explored AWS Database Migration Service and learned how it can help migrate and replicate databases while minimizing application downtime.
 
