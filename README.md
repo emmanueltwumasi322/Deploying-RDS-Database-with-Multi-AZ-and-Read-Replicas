@@ -110,7 +110,7 @@ Configured the Amazon RDS database instance using:
 
 This configuration provided a managed database environment while reducing the operational work required to maintain the underlying database infrastructure. <br/><br/>
 
-<img width="900" alt="Amazon RDS Instance Configuration" src="ADD_SCREENSHOT_URL_HERE" />
+<img width="900" alt="Amazon RDS Instance Configuration" src="https://github.com/user-attachments/assets/278837cd-1ec9-4e31-8d8c-fac7ab961f4c" />
 
 <br/><br/>
 
