@@ -133,22 +133,7 @@ If the primary database becomes unavailable, Amazon RDS can automatically fail o
 
 <br/><br/>
 
-<b>Step 5: Configure Multi-AZ Deployment.</b><br/>
-
-
-Selected:
-
-<ul>
-<li>Multi-AZ deployment: 
-</ul>
-
-
-
-<img width="900" alt="Amazon RDS Multi-AZ Configuration" src="ADD_SCREENSHOT_URL_HERE" />
-
-<br/><br/>
-
-<b>Step 6: Configure Database Networking.</b><br/>
+<b>Step 5: Configure Database Networking.</b><br/>
 Reviewed the networking configuration for the Amazon RDS database. <br/><br/>
 
 Configured:
@@ -166,7 +151,7 @@ Disabling public access helps protect the database by preventing direct connecti
 
 <br/><br/>
 
-<b>Step 7: Configure Monitoring.</b><br/>
+<b>Step 6: Configure Monitoring.</b><br/>
 Reviewed the available Amazon RDS monitoring options. <br/><br/>
 
 Configured:
@@ -183,7 +168,7 @@ Performance Insights and Enhanced Monitoring were disabled because the SimuLearn
 
 <br/><br/>
 
-<b>Step 8: Configure the Initial Database.</b><br/>
+<b>Step 7: Configure the Initial Database.</b><br/>
 Expanded the additional configuration section and created the initial database. <br/><br/>
 
 Configured:
@@ -210,7 +195,7 @@ The database name was:
 
 <br/><br/>
 
-<b>Step 9: Review Backup, Encryption, and Maintenance Settings.</b><br/>
+<b>Step 8: Review Backup, Encryption, and Maintenance Settings.</b><br/>
 Reviewed the Amazon RDS backup and encryption options before deployment. <br/><br/>
 
 Configured:
@@ -228,7 +213,7 @@ Automated backups allow database recovery using stored backup data and help prot
 
 <br/><br/>
 
-<b>Step 10: Create the Amazon RDS Database.</b><br/>
+<b>Step 9: Create the Amazon RDS Database.</b><br/>
 Reviewed the database configuration and selected <b>Create database</b>. <br/><br/>
 
 Amazon RDS began provisioning the MariaDB database instance and its associated Multi-AZ standby instance. <br/><br/>
@@ -239,7 +224,7 @@ The provisioning process took several minutes to complete. <br/><br/>
 
 <br/><br/>
 
-<b>Step 11: Understand the Purpose of Read Replicas.</b><br/>
+<b>Step 10: Understand the Purpose of Read Replicas.</b><br/>
 Reviewed how Amazon RDS read replicas can be used to improve performance for read-intensive workloads. <br/><br/>
 
 The simulated insurance company's Data Analytics team frequently runs large analytics queries. Instead of sending every read request to the primary database, these workloads can be directed to a read replica. <br/><br/>
@@ -261,7 +246,7 @@ It is important to distinguish between Multi-AZ and read replicas:
 
 <br/><br/>
 
-<b>Step 12: Explore AWS Database Migration Service.</b><br/>
+<b>Step 11: Explore AWS Database Migration Service.</b><br/>
 Opened AWS Database Migration Service and navigated to <b>Getting started</b>. <br/><br/>
 
 Reviewed the available workflows:
